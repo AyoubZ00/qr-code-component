@@ -1,5 +1,4 @@
-@import url("https://fonts.google.com/specimen/Outfit");
-
+@import url('https://fonts.googleapis.com/css2?family=Outfit');
 body {
     background-color: hsla(211, 45%, 89%, 100%);
     margin: 0;
@@ -33,11 +32,12 @@ article {
 h1 {
     font-family: 'Outfit', sans-serif;
     font-weight: 700;
-    font-size: 22px;
-    line-height: 28px;
+    font-size: 24px;
+    line-height: 1.4;
     text-align: center;
     color: #1F314F;
     padding: 0 1fr 0 16px;
+    margin-bottom: 0px;
 }
 
 h1::first-letter{
@@ -46,12 +46,12 @@ h1::first-letter{
 
 p {
     font-family: 'Outfit', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 400;
     color: #7D889E;
     text-align: center;
     width: 256px;
-    margin: 0 16px;
+    margin: calc(129px - (57px + 56px)) 16px 0;
 }
 
 p:first-letter {
