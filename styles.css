@@ -30,7 +30,7 @@ article {
     margin: 0 auto;
 }
 
-h3 {
+h1 {
     font-family: 'Outfit', sans-serif;
     font-weight: 700;
     font-size: 22px;
@@ -40,7 +40,7 @@ h3 {
     padding: 0 1fr 0 16px;
 }
 
-h3::first-letter{
+h1::first-letter{
     padding-left: 8px;
 }
 
